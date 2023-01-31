@@ -1,0 +1,22 @@
+.yacht-background-image {
+    .v-responsive__content {
+        display: flex !important;
+        align-items: flex-end !important;
+    }
+}
+
+.search-section-head {
+    text-align: center;
+    span {
+        font-size: 2rem;
+        font-family: "Roboto", sans-serif !important;
+    }
+
+    @media(min-width: 760px) {
+        text-align: left;
+
+        span {
+            font-size: 3rem;
+        }
+    }
+}
